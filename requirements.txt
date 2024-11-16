@@ -1,2 +1,4 @@
 newspaper3k
 pandas
+transformers
+torch
