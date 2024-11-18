@@ -27,7 +27,7 @@ _Run the flask system_
 python handlers.py
 ```
 
-When running in local, the system shall connect port to `localhost:5000`
+When running in local, the system shall connect port to `localhost:5000` \
 _It has two endpoints_
 
 ```
