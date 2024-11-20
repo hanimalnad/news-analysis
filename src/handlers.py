@@ -11,6 +11,8 @@ app = Flask(__name__)
 
 @app.route('/scrape', methods=['GET'])
 def scraper():
+    if os.path.isfile("../my_scraped_articles.csv"):
+        os.remove("../my_scraped_articles.csv")
     ndtv = newspaper.build('https://www.ndtv.com/news', memoize_articles=False)
     tv9 = newspaper.build("https://www.news9live.com/", memoize_articles=False)
 
@@ -73,4 +75,4 @@ def summarize():
         print()
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(host='0.0.0.0',debug=True)
