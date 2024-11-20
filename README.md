@@ -3,34 +3,25 @@
 ## Requirements for the project are:-
 
 ```
-Python 3.9
+Docker
 ```
 
 ## To run the above project
 
-_Start a venv_
-
+- Start your docker engine 
+- Run the following command in the specific directory
 ```
-python -m venv myenv
-./myenv/Scripts/activate
+docker-compose up --build
 ```
-
-_Install all the requirements from the `requirements.txt`_
-
+To shut down the local dev 
 ```
-pip install -r requirements.txt
-```
-
-_Run the flask system_
-
-```
-python handlers.py
+docker-compose down 
 ```
 
 When running in local, the system shall connect port to `localhost:5000` \
 _It has two endpoints_
 
 ```
-/scrape #To scarpe live-news sites
-/summarize #To summarize the scrapped pages
+GET /scrape #To scarpe live-news sites
+GET /summarize #To summarize the scrapped pages
 ```

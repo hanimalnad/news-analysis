@@ -1,5 +1,5 @@
 newspaper3k
 pandas
 transformers
-torch
-Flask
+flask
+lxml_html_clean
