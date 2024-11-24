@@ -3,3 +3,6 @@ pandas
 transformers
 flask
 lxml_html_clean
+torch
+flask-cors
+textblob

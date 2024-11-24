@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>News Analysis</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet" />
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f9fc;
+            color: #333;
+        }
+
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #003366;
+            padding: 10px 20px;
+            color: #ffffff;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        .header img {
+            height: 40px;
+        }
+
+        .news_heading {
+            color: #ffffff;
+            font-size: 20px;
+            font-family: 'Georgia', serif;
+            font-style: italic;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .search-bar {
+            display: flex;
+            align-items: center;
+            background-color: #ffffff;
+            padding: 5px;
+            border-radius: 20px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        .search-bar input {
+            padding: 5px 10px;
+            font-size: 14px;
+            border: none;
+            outline: none;
+            border-radius: 20px 0 0 20px;
+            width: 180px;
+        }
+
+        .search-bar button {
+            background-color: #00509e;
+            border: none;
+            color: #ffffff;
+            font-size: 16px;
+            padding: 6px 15px;
+            border-radius: 0 20px 20px 0;
+            cursor: pointer;
+        }
+
+        .search-bar button:hover {
+            background-color: #003f7f;
+        }
+
+        .nav-menu {
+            display: flex;
+            justify-content: center;
+            background-color: #00509e;
+            padding: 10px 0;
+        }
+
+        .nav-menu a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #ffffff;
+            font-size: 14px;
+            font-weight: bold;
+            padding: 5px 10px;
+            border-radius: 5px;
+            transition: background-color 0.3s, color 0.3s;
+        }
+
+        .nav-menu a:hover {
+            background-color: #eaf4fc;
+            color: #00509e;
+        }
+
+        .main-content {
+            position: relative;
+            text-align: center;
+            color: white;
+            margin: 20px auto;
+            max-width: 1000px;
+            overflow: hidden;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        .main-content img {
+            width: 100%;
+            height: auto;
+            object-fit: cover;
+            border-radius: 10px;
+        }
+
+        .main-content .centered {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-size: 36px;
+            font-weight: bold;
+            background-color: rgba(0, 0, 0, 0.7);
+            padding: 10px 20px;
+            border-radius: 5px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+            font-family: 'Arial', sans-serif;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Header Section -->
+    <div class="header">
+        <img alt="Government Logo" src="https://storage.googleapis.com/a1aa/image/SSeSdxvHQL0jHyDnMCCoEQsSr7DEQr404sIQ2N0JvBBXL95JA.jpg" />
+        <a class="news_heading" href="index.html">NEWS ANALYSIS</a>
+        <div class="search-bar">
+            <input type="text" placeholder="Search Your Interest..." />
+            <button>
+                <i class="fas fa-search"></i>
+            </button>
+        </div>
+    </div>
+
+    <!-- Navigation Menu -->
+    <div class="nav-menu">
+        <a href="news.html">News and Social Concern</a>
+        <a href="sports.html">Sports</a>
+        <a href="learn.html">Learning and Education</a>
+        <a href="daily.html">Diaries and Daily</a>
+    </div>
+
+    <!-- Main Content Section -->
+    <div class="main-content">
+        <img alt="Two men playing basketball on an outdoor court" src="https://storage.googleapis.com/a1aa/image/jT8Yl9GjzGKJPR7HeEoYPsf4Om9A7fZlXA8Q4FhnP8mht0nnA.jpg" />
+        <div class="centered">Welcome to News Analysis</div>
+    </div>
+</body>
+
+</html>
