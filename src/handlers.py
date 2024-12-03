@@ -25,12 +25,13 @@ def scraper():
     news_pool.join()
 
     final_df = pd.DataFrame()
-    limit = 10
+    limit = 50
 
     for source in papers:
         list_title = []
         list_text = []
         list_source = []
+        list_images = []
         count = 0
 
         for article_extract in source.articles:
@@ -44,12 +45,13 @@ def scraper():
                 list_title.append(article_extract.title)
                 list_text.append(article_extract.text)
                 list_source.append(article_extract.url)
-
+                list_images.append(article_extract.top_image)
                 count += 1
             except Exception as e:
                 print(f"Error processing article: {e}")
+                list_images.append(None) 
 
-        temp_df = pd.DataFrame({'Title': list_title, 'Text': list_text, 'Source': list_source})
+        temp_df = pd.DataFrame({'Title': list_title, 'Text': list_text, 'Source': list_source, 'Image': list_images})
         final_df = pd.concat([final_df, temp_df], ignore_index=True)
 
     final_df.to_csv('/app/my_scraped_articles.csv', index=False)
