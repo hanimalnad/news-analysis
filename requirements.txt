@@ -4,8 +4,4 @@ transformers
 flask
 lxml_html_clean
 torch
-<<<<<<< HEAD
 flask-cors
-=======
-flask-cors
->>>>>>> bf0a8d7102545f574e4309c3014a2f8f1020e666
