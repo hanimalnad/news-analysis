@@ -58,7 +58,7 @@ Ensure your Docker Engine is running on your machine.
 
 ### 2. Clone the Repository
 ```bash
-git clone <https://github.com/hanimalnad/news-analysis>
+git clone <https://github.com/chandrashekardn/News-Analysis>
 cd <LiveNews>
 
 ```
