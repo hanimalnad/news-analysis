@@ -24,7 +24,7 @@ This project is a live news scraper and sentiment analysis tool. It scrapes news
 ## Features
 - **Live News Scraping**: Automatically collects news articles from predefined news websites.
 - **Categorization**: Uses a pre-trained machine learning model for accurate topic categorization of articles.
-- **Sentiment Analysis**: Analyzes the sentiment of scraped news pages and summarizes them.
+- **Sentiment Analysis**: Analyzes the sentiment of scraped news pages.
 - **Frontend Integration**: User-friendly interface for viewing and interacting with results.
 - **Easy Deployment**: Dockerized for seamless setup and deployment.
 
