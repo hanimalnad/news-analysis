@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", () => {
-    const category = "diaries_&_daily_life"; // Ensure case sensitivity matches backend category
+    const category = "business_&_entrepreneurs"; // Ensure case sensitivity matches backend category
     const newsCards = document.getElementById("newsCards");
     const noResults = document.getElementById("noResults");
 

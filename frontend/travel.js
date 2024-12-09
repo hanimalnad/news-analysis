@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", () => {
-    const category = "diaries_&_daily_life"; // Ensure case sensitivity matches backend category
+    const category = "travel_&_adventure"; // Ensure case sensitivity matches backend category
     const newsCards = document.getElementById("newsCards");
     const noResults = document.getElementById("noResults");
 
@@ -50,3 +50,5 @@ document.addEventListener("DOMContentLoaded", () => {
             alert("Failed to load data. Ensure the backend is running and reachable.");
         });
 });
+
+

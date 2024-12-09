@@ -15,7 +15,7 @@ document.addEventListener("DOMContentLoaded", () => {
                     <div class="news-content">
                         <h3 class="news-title">${article.Title || "Untitled"}</h3>
                         <p class="news-text">${article.Text ? article.Text.substring(0, 100) + "..." : "No content available"}</p>
-                       <div class="sentiment-container">
+                        <div class="sentiment-container">
                             <span class="sentiment ${article.Sentiment.toLowerCase()}">${article.Sentiment || "No sentiment"}</span>
                         </div>
                         <a href="${article.Source}" class="news-source" target="_blank">Read More</a>

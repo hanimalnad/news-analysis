@@ -3,11 +3,36 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dairies and Daily</title>
+    <title>Science & Technology</title>
     <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            background-color: #f9f9f9;
+        }
+    
+        .news-cards {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            padding: 30px 10px;
+        }
+    
+        .sentiment {
+            display: block;
+            text-align: center;
+            margin: 0 auto;
+            font-size: 14px;
+            padding: 8px 15px;
+            color: white;
+            border-radius: 12px;
+           
+        }
+    </style>
 </head>
 <body>
-    <h1>Business</h1>
+    <header>
+    <h1>Science & Technology</h1>
+</header>
     <main>
         <div id="newsCards" class="news-cards">
             <!-- News cards will be dynamically populated here -->

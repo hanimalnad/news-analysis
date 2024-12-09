@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", () => {
-    const category = "sfashion_&_style"; 
+    const category = "science_&_technology"; 
     const newsCards = document.getElementById("newsCards");
 
     fetch("http://localhost:5000/get_data")
