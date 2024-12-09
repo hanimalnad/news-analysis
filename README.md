@@ -22,6 +22,6 @@ When running in local, the system shall connect port to `localhost:5000` \
 _It has two endpoints_
 
 ```
-GET /scrape #To scarpe live-news sites
-GET /summarize #To summarize the scrapped pages
+GET /scrapeand_categorize_ #To scarpe live-news and categorize
+GET /senti #To obtain the sentiment analysis of the scrapped pages
 ```
