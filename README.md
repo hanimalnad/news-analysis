@@ -61,15 +61,19 @@ Ensure your Docker Engine is running on your machine.
 git clone <https://github.com/hanimalnad/news-analysis>
 cd <LiveNews>
 
+```
+
 ### 3. Build and Run the Project
 To build and start the application, use the following command:
 ```bash
 docker-compose up --build
+```
 
 ### 4. Shut Down the Application
 To stop the application and clean up the running containers, use the following command:
 ```bash
 docker-compose down
+```
 
 ## Endpoints
 
